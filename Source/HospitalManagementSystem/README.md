@@ -32,7 +32,7 @@ A Spring MVC web application for Hospital Management System with the following o
 i. Clone the git repo
 
 ```
-https://github.com/AAdewunmi/SpringBoot-Employee-Management-System.git
+https://github.com/itsgowtham23/Hospital-Management-System/tree/main
 ```
 
 ii. Open project folder
@@ -98,4 +98,4 @@ Author: Gowtham Kanagaraj
  
 Github Project Name: Hospital Management System
 
-Github URL: https://github.com/RameshMF/springboot-thymeleaf-crud-pagination-sorting-webapp
+Github URL: https://github.com/itsgowtham23/Hospital-Management-System/tree/main
