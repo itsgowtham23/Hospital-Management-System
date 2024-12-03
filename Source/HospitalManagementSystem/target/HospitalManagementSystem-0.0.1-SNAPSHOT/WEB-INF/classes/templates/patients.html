@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html
+   xmlns="http://www.w3.org/1999/xhtml"
+   xmlns:th="http://www.thymeleaf.org"
+   >
+   <head>
+      <meta charset="ISO-8859-1">
+      <title>Patient Profile</title>
+   </head>
+   <body style="background-color:#87a8ad87;">
+      <style>
+         .right-align {
+         text-align: right;
+         }
+      </style>
+      <hr>
+      <H1 align="center">HOSPITAL MANAGEMENT SYSTEM</H1>
+      <div class="right-align">
+         <hr>
+		 <a th:href="@{/logout}" style="float: left;">Home</a>
+         Hello! <span th:text="${username}"></span> <br>
+         <br>
+         <form action="#" th:action="@{/logout}">
+            <input type="submit" value="Logout">
+         </form>
+      </div>
+      <a th:href="@{/add}">Book Appointment</a>
+      <a th:href="@{patients/myAppointments}">View Appointments</a>
+      <a th:href="@{patients/cancelAppointment}">Cancel Appointment</a>
+      <hr>
+      <br>
+      <div th:if="${message}" th:text="${message}" th:class="${'alert ' + alertClass}"></div>
+   </body>
+</html>
