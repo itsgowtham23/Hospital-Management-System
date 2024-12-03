@@ -32,7 +32,7 @@ A Spring MVC web application for Hospital Management System with the following o
 i. Clone the git repo
 
 ```
-https://github.com/itsgowtham23/Hospital-Management-System/tree/main
+https://github.com/itsgowtham23/Hospital-Management-System
 ```
 
 ii. Open project folder
@@ -98,4 +98,4 @@ Author: Gowtham Kanagaraj
  
 Github Project Name: Hospital Management System
 
-Github URL: https://github.com/itsgowtham23/Hospital-Management-System/tree/main
+Github URL: https://github.com/itsgowtham23/Hospital-Management-System
